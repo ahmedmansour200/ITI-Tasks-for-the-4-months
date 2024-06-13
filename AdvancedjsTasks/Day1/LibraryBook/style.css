@@ -1,0 +1,82 @@
+body {
+    background-color: #9c4c33;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+h1 {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#numBooksForm{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+input[type="number"] {
+    padding: 8px;
+}
+
+.input {
+    /* display: none; */
+    
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400px;
+}
+
+input[type="text"] {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: darkgreen;
+    padding: 8px 20px;
+    margin: 10px 50px;
+    border-radius: 12px;
+}
+
+.table {
+    display: none;
+    margin-top: 50px;
+}
+
+thead {
+    width: 200px;
+    background-color: darkslategrey;
+}
+
+td, th {
+    border: 1pt solid;
+    padding: 8px;
+}
+p{
+    display: none;
+}
+.book-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+     width: 400px;
+}
