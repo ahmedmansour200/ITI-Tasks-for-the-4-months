@@ -1,10 +1,11 @@
-var audio=document.getElementsByTagName('audio')[0];
+var audio=document.querySelector('audio');
 var playBtn=document.getElementById('play');
 var pauseBtn=document.getElementById('pause');
 var stopBtn=document.getElementById('stop');
 var timeRange=document.getElementById('time');
 var volumeRange=document.getElementById('volume');
 var speedRange=document.getElementById('speed');
+
 
 var imag = document.getElementsByTagName("img")[0];
 
@@ -28,9 +29,20 @@ audio.addEventListener('durationchange',function(){
 timeRange.addEventListener('input',function(){
     audio.currentTime=timeRange.value;
 })
+
+audio.addEventListener('input', function(){
+    // console.log(audio.currentTime);
+    timeRange.value=audio.currentTime;
+})
+
 volumeRange.addEventListener('input',function(){
     audio.volume=volumeRange.value;
 })
+
+document.getElementById("mute").addEventListener('click', function(){
+    audio.muted=!audio.muted;
+})
+
 // audioSor[0].style.backgroundColor='red';
 
 

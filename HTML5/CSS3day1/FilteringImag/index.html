@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Filters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="photo" class="photo"></div>
+        <div class="buttons">
+            <button onclick="filterImag('saturate(2)')">Saturate</button>
+            <button onclick="filterImag('opacity(0.5)')">Opacity</button>
+            <button onclick="filterImag('invert(1)')">Invert</button>
+            <button onclick="filterImag('sepia(1)')">Sepia</button>
+            <button onclick="filterImag('grayscale(1)')">Grayscale</button>
+        </div>
+    </div>
+
+    <script>
+        function filterImag(filter) {
+            document.getElementById('photo').style.filter = filter;
+        }
+    </script>
+</body>
+</html>
