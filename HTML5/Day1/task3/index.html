@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: flex-start;
+            justify-items: auto;
+            margin-top: 50px;
+        }
+
+        .progress-container {
+            display: flex;
+            align-items: center;
+        }
+
+        progress {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 50%;
+            height: 20px;
+            margin: 0 10px;
+        }
+
+        progress::-webkit-progress-bar {
+            background-color: #f3f3f3;
+            border-radius: 5px;
+        }
+
+        progress::-webkit-progress-value {
+            background-image: linear-gradient(to right, green, orange);
+            border-radius: 5px;
+        }
+
+        progress::-moz-progress-bar {
+            background-image: linear-gradient(to right, green, orange);
+            border-radius: 5px;
+        }
+
+        #progress-value {
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <input type="number" id="num">
+        <input type="range" min="0" max="10" id="rang" value="0">
+        <span></span>
+    </div>
+    <div class="progress-container">
+        <label for="progress">progress</label>
+        <progress id="progress" value="20" max="100"></progress>
+        <span id="progress-value">20%</span>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

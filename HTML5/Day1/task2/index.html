@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            margin: 50px;
+        }
+        input{
+            margin-left: 50px;
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label>Red</label>
+        <input type="range" min="0" max="255" id="red" value="0">
+    </div>
+    <div>
+        <label>Green</label>
+        <input type="range" min="0" max="255" id="green" value="0">
+    </div>
+    <div>
+        <label>Blue</label>
+        <input type="range" min="0" max="255" id="blue" value="0">
+    </div>
+    <div class="colorChane">
+        <h1>The Color </h1>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
