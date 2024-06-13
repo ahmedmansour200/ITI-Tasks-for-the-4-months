@@ -1,0 +1,21 @@
+.width {
+    width: 55px;
+}
+
+table {
+    float: left;
+    margin-right: 10px;
+}
+
+#td {
+    font-family: comic sans ms;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    font-size: 9pt;
+}
+
+#ans {
+    width: 100px;
+    text-align: right;
+}
