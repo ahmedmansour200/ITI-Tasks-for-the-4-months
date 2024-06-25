@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header , footer{
+    
+    margin-top: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+li{
+    display: flex;
+    justify-content: space-around;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.section1{
+    width: 600px;
+    height: 200px;
+    border: 2px solid black;
+} 
+.section1 p{
+    margin-top: 20px;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
