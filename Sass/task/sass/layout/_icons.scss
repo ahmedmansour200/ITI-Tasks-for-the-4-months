@@ -1,0 +1,9 @@
+.icons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__groder{
+        display: flex;
+        margin: 30px 0;
+    }
+}

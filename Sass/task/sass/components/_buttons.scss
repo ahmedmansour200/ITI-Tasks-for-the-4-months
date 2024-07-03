@@ -1,0 +1,27 @@
+.btn {
+    border: 2px solid $btn-color;
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    &:hover{
+        @include eleHover()
+    }
+}
+.btn--nav {
+    border: 2px solid $btn-color;
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    &:hover{
+        @include eleHover($main-color, white)
+    }
+}
+.btn--bakery{
+    border: 2px solid $main-color;
+    background-color:$main-color;
+    padding: 8px 16px;
+    border-radius: 4px;
+    &:hover{
+        @include eleHover($main-color, white)
+    }
+}

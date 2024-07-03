@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    &__logo--size{
+        width: 130px;   
+     }
+    &__list ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+        & li{
+            margin: 0 0 0 20px;
+            &:hover{
+                @include eleHover($main-color, white)
+            }
+        }
+    }
+}

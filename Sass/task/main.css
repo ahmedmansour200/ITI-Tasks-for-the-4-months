@@ -1,0 +1,296 @@
+.bakery__imag--bg, .tp-bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card--font {
+  text-transform: capitalize;
+  color: #555555;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.card__content--font {
+  color: #696969;
+  font-size: 13px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 400;
+}
+
+.card__content__price--font {
+  color: #ebb576;
+  font-size: 16px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 700;
+}
+
+.nav__list__nav--font {
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #696969;
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+}
+
+.nav__list__nav--active {
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ebb576;
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+}
+
+.title--font {
+  text-transform: uppercase;
+  color: #555555;
+  font-size: 18px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 700;
+}
+
+.tp-bgimg__text--font {
+  color: #ebb576;
+  font-size: 18px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 700;
+}
+
+.tp-bgimg__titile--font {
+  margin: 20px 0;
+  text-transform: uppercase;
+  color: #ddd;
+  font-size: 28px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 800;
+}
+
+.tp-bgimg__prg--font {
+  color: #ddd;
+  font-size: 18px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 600;
+}
+
+.btn--font {
+  text-transform: uppercase;
+  color: #555555;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.btn--font--main-color {
+  text-transform: uppercase;
+  color: white;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.card-icon__titel--font {
+  text-transform: uppercase;
+  margin: 20px 0;
+  color: #555555;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.tp-bgimg {
+  width: 100%;
+  height: 80vh;
+  background-image: url("https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/slide-3.jpg");
+}
+
+.bakery__imag--bg {
+  width: 50%;
+  height: 80vh;
+  background-image: url("../../images/img-6.jpg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.offer__cards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+}
+.offer__button {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+.nav__logo--size {
+  width: 130px;
+}
+.nav__list ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__list ul li {
+  margin: 0 0 0 20px;
+}
+.nav__list ul li:hover {
+  color: #ebb576;
+  background-color: white;
+  transition: 0.3s all ease-in-out;
+}
+
+header {
+  margin-top: 20px;
+}
+
+.tp-bgimg {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.icons__groder {
+  display: flex;
+  margin: 30px 0;
+}
+
+.bakery {
+  display: flex;
+  background-color: #f7f7f7;
+}
+.bakery__text {
+  width: 50%;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bakery__text__prg {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  width: 50%;
+  padding: 0 15px;
+}
+.card img {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 130px;
+  height: 130px;
+}
+.card p {
+  line-height: 24px;
+}
+.card__price {
+  color: #ebb576;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  position: relative;
+}
+.title::before {
+  content: "";
+  background-color: #ddd;
+  height: 2px;
+  width: 150px;
+  position: absolute;
+  bottom: -12px;
+}
+.title::after {
+  content: "";
+  background-color: #ebb576;
+  height: 2px;
+  width: 50px;
+  position: absolute;
+  bottom: -12px;
+}
+
+.btn {
+  border: 2px solid #555555;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+.btn:hover {
+  color: white;
+  background-color: #555555;
+  transition: 0.3s all ease-in-out;
+}
+
+.btn--nav {
+  border: 2px solid #555555;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+.btn--nav:hover {
+  color: #ebb576;
+  background-color: white;
+  transition: 0.3s all ease-in-out;
+}
+
+.btn--bakery {
+  border: 2px solid #ebb576;
+  background-color: #ebb576;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+.btn--bakery:hover {
+  color: #ebb576;
+  background-color: white;
+  transition: 0.3s all ease-in-out;
+}
+
+.card-icon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 10px;
+}
+.card-icon__icon--bg {
+  width: 140px;
+  height: 140px;
+  background-color: #ebb576;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}/*# sourceMappingURL=main.css.map */

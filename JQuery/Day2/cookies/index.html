@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registration" id="registration">
+        <h2>Information</h2>
+        <form id="registrationForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br><br>
+            <label for="fontColor">Font Color:</label>
+            <input type="color" id="fontColor" name="fontColor" value="#000000"><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="profile" id="profile" style="display: none;">
+        <h2 id="greeting"></h2>
+        <img id="profilePic" src="" alt="Profile Picture">
+        <p id="visitCount"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

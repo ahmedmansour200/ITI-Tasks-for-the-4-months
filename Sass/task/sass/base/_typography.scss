@@ -1,0 +1,62 @@
+.card--font{
+    text-transform: capitalize;
+    @include font($titles-color, 16px,"Poppins", 600 );
+}
+
+.card__content--font{
+    @include font($text-color, 13px,"Open sans", 400 );
+}
+
+.card__content__price--font{
+    @include font($main-color, 16px,"Open sans", 700 );
+}
+.nav__list__nav--font{
+    text-transform: uppercase;
+    cursor: pointer;
+    @include font($text-color, 14px, Poppins , 600 );
+}
+.nav__list__nav--active{
+    text-transform: uppercase;
+    cursor: pointer;
+    @include font($main-color, 14px, Poppins , 600 );
+}
+.title--font {
+    text-transform: uppercase;
+    @include font($titles-color, 18px,"Open sans", 700 );
+}
+
+.tp-bgimg__text--font{
+    @include font($main-color, 18px,"Open sans", 700 );
+}
+.tp-bgimg__titile--font{
+    margin: 20px 0;
+    text-transform: uppercase;
+    @include font($dash-color, 28px,"Open sans", 800 );
+}
+.tp-bgimg__prg--font{
+    // height: 100px;
+    @include font($dash-color, 18px,"Open sans", 600 );
+}
+.btn--font{
+    text-transform: uppercase;
+    @include font($btn-color, 13px,"Poppins", 700 );
+}
+.btn--font--main-color{
+    text-transform: uppercase;
+    @include font(white, 13px,"Poppins", 700 );
+}
+.card-icon__titel--font{
+    text-transform: uppercase;
+    margin: 20px 0;
+    @include font($btn-color, 15px,"Poppins", 600 );
+
+}
+.tp-bgimg{
+    @include bg-image(100% , 80vh , "https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/slide-3.jpg")
+}
+.bakery__imag--bg{
+    @include bg-image(50% , 80vh , "../../images/img-6.jpg")
+}
+// .bakery__text{
+//     @include after-before($main-color , 24px)
+// }
